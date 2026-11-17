@@ -1,0 +1,313 @@
+{
+    "configs": [
+        {
+          "package": "com.google.android.projection.gearhead.phonescreen",
+          "rate": "60,60,60"
+        },
+        {
+          "package": "com.waze",
+          "rate": "60,60,60"
+        },
+        {
+          "package": "com.google.android.apps.mapslite",
+          "rate": "60,60,60"
+        },
+        {
+          "package": "ru.yandex.yandexmaps",
+          "rate": "60,60,60"
+        },
+        {
+          "package": "maps.pro",
+          "rate": "60,60,60"
+        },
+        {
+          "package": "com.baidu.BaiduMap",
+          "rate": "60,60,60"
+        },
+        {
+          "package": "com.mapquest.android.ace",
+          "rate": "60,60,60"
+        },
+        {
+          "package": "com.autonavi.minimap",
+          "rate": "60,60,60"
+        },
+        {
+          "package": "com.nhn.android.nmap",
+          "rate": "60,60,60"
+        },
+        {
+          "package": "com.here.app.maps",
+          "rate": "60,60,60"
+        },
+        {
+          "package": "com.ss.android.ugc.aweme",
+          "rate": "60,60,60"
+        },
+        {
+          "package": "com.ss.android.ugc.aweme.lite",
+          "rate": "60,60,60"
+        },
+        {
+          "package": "com.ss.android.ugc.trill",
+          "rate": "60,60,60"
+        },
+        {
+          "package": "tv.twitch.android.app",
+          "rate": "60,60,60"
+        },
+        {
+          "package": "com.ss.android.ugc.aweme.mobile",
+          "rate": "60,60,60"
+        },
+        {
+          "package": "com.ss.android.ugc.live",
+          "rate": "60,60,60"
+        },
+        {
+          "package": "com.zhiliaoapp.musically",
+          "rate": "60,60,60"
+        },
+        {
+          "package": "com.axlebolt.standoff2",
+          "rate": "120,120,60",
+          "disableidle": true
+        },
+        {
+          "package": "com.tencent.lolm",
+          "rate": "120,120,60",
+          "disableidle": true
+        },
+        {
+          "package": "com.riotgames.league.wildrift",
+          "rate": "120,120,60",
+          "disableidle": true
+        },
+        {
+          "package": "com.ea.games.r3_row",
+          "rate": "120,120,60",
+          "disableidle": true
+        },
+        {
+          "package": "com.kiloo.subwaysurf",
+          "rate": "120,120,60",
+          "disableidle": true
+        },
+        {
+          "package": "com.nianticlabs.pokemongo",
+          "rate": "120,120,60",
+          "disableidle": true
+        },
+        {
+          "package": "com.criticalforceentertainment.criticalops",
+          "rate": "120,120,60",
+          "disableidle": true
+        },
+        {
+          "package": "com.madfingergames.deadtrigger2",
+          "rate": "120,120,60",
+          "disableidle": true
+        },
+        {
+          "package": "com.mobile.legends",
+          "rate": "120,120,60",
+          "disableidle": true
+        },
+        {
+          "package": "com.mobile.legends.usa",
+          "rate": "120,120,60",
+          "disableidle": true
+        },
+        {
+          "package": "com.tencent.ig",
+          "rate": "90,90,60",
+          "disableidle": true
+        },
+        {
+          "package": "com.tencent.sngame",
+          "rate": "90,90,60",
+          "disableidle": true
+        },
+        {
+          "package": "com.tencent.igfit",
+          "rate": "90,90,60",
+          "disableidle": true
+        },
+        {
+          "package": "com.tencent.sngame",
+          "rate": "90,90,60",
+          "disableidle": true
+        },
+        {
+          "package": "com.rekoo.pubgm",
+          "rate": "90,90,60",
+          "disableidle": true
+        },
+        {
+          "package": "com.vng.pubgmobile",
+          "rate": "90,90,60",
+          "disableidle": true
+        },
+        {
+          "package": "com.pubg.krmobile",
+          "rate": "90,90,60",
+          "disableidle": true
+        },
+        {
+          "package": "com.tencent.igce",
+          "rate": "90,90,60",
+          "disableidle": true
+        },
+        {
+          "package": "com.pubg.imobile",
+          "rate": "120,120,60",
+          "disableidle": true
+        },
+        {
+          "package": "com.king.candycrushsaga",
+          "rate": "60,60,60"
+        },
+        {
+          "package": "com.nothing.launcher",
+          "rate": "120,120,60"
+        },
+        {
+          "package": "com.tencent.mm",
+          "rate": "120,120,60"
+        },
+        {
+          "package": "com.google.android.apps.nbu.paisa.user",
+          "rate": "120,120,60"
+        },
+        {
+          "package": "com.android.systemui",
+          "rate": "120,120,60"
+        },
+        {
+          "package": "com.nothing.wallpaper",
+          "rate": "120,120,60"
+        },
+        {
+          "package": "com.twitter.android",
+          "rate": "120,120,60",
+          "activities": [
+            {
+              "activity": "com.twitter.android/com.twitter.explore.immersivemediaplayer.ui.activity.ImmersiveMediaPlayerActivity",
+              "rate": "120,120,60",
+              "idlefpstimeout": 1000
+            }
+          ]
+        },
+        {
+          "package": "com.spotify.music",
+          "rate": "90,120,60",
+          "activities": [
+            {
+              "activity": "com.spotify.music/com.spotify.nowplaying.musicinstallation.NowPlayingActivity",
+              "rate": "90,120,60",
+              "idlefpstimeout": 1000
+            }
+          ]
+        },
+        {
+          "package": "com.google.android.deskclock",
+          "rate": "90,120,60",
+          "idlefpstimeout": 1000
+        },
+        {
+          "package": "us.zoom.videomeetings",
+          "rate": "90,120,60",
+          "idlefpstimeout": 1000
+        },
+        {
+          "package": "com.google.android.gm",
+          "rate": "90,120,60",
+          "idlefpstimeout": 4500,
+          "activities": [
+            {
+              "activity": "com.google.android.gm/com.google.android.gm.ComposeActivityGmail",
+              "rate": "90,120,60",
+              "idlefpstimeout": 1000
+            }
+          ]
+        },
+        {
+          "package": "com.nothing.weather",
+          "rate": "120,120,60"
+        },
+        {
+          "package": "com.android.vending",
+          "rate": "120,120,60"
+        },
+        {
+          "package": "com.android.settings",
+          "rate": "120,120,60"
+        },
+        {
+          "package": "com.google.android.googlequicksearchbox",
+          "rate": "120,120,60"
+        },
+        {
+          "package": "com.android.setupwizard.overlay",
+          "rate": "120,120,60"
+        },
+        {
+          "package": "com.google.android.apps.photos",
+          "rate": "120,120,60"
+        },
+        {
+          "package": "com.nothing.gallery",
+          "rate": "120,120,60"
+        },
+        {
+          "package": "com.nothing.applocker",
+          "rate": "120,120,60"
+        },
+        {
+          "package": "com.nothing.ntessentialspace",
+          "rate": "120,120,60"
+        },
+        {
+          "package": "com.android.chrome",
+          "rate": "120,120,60"
+        },
+        {
+          "package": "com.antutu.ABenchMark",
+          "rate": "120,120,60",
+          "disableidle": true
+        },
+        {
+          "package": "com.futuremark.dmandroid.application",
+          "rate": "120,120,60",
+          "disableidle": true
+        },
+        {
+          "package": "com.primatealbs.geekbench6",
+          "rate": "120,120,60",
+          "disableidle": true
+        },
+        {
+          "package": "com.tools.cit",
+          "rate": "120,120,120",
+          "disableidle": true
+        },
+        {
+          "package": "com.nothing.ntfactorytest",
+          "rate": "120,120,120",
+          "disableidle": true
+        },
+        {
+          "package": "com.goodix.fingerprint.setting",
+          "rate": "120,120,120"
+        },
+        {
+         "package": "com.nothing.factorytool",
+         "rate": "120,120,60",
+         "disableidle": true
+        },
+        {
+         "package": "android.screenrecord.cts",
+         "rate": "60,60,60"
+        }
+    ]
+}
