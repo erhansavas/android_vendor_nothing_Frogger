@@ -9,8 +9,11 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Frogger/proprietary/odm/etc/aac_richtap.config:$(TARGET_COPY_OUT_ODM)/etc/aac_richtap.config \
     vendor/nothing/Frogger/proprietary/odm/etc/permissions/sku_JPN/android.hardware.strongbox_keystore.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_JPN/android.hardware.strongbox_keystore.xml \
     vendor/nothing/Frogger/proprietary/product/etc/permissions/UimGba.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGba.xml \
+    vendor/nothing/Frogger/proprietary/product/etc/permissions/UimGbaManager.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGbaManager.xml \
     vendor/nothing/Frogger/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
     vendor/nothing/Frogger/proprietary/product/etc/sysconfig/felica-allowlist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/felica-allowlist.xml \
+    vendor/nothing/Frogger/proprietary/system/etc/permissions/uimremoteclient.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/uimremoteclient.xml \
+    vendor/nothing/Frogger/proprietary/system/etc/permissions/uimremoteserver.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/uimremoteserver.xml \
     vendor/nothing/Frogger/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/nothing/Frogger/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/nothing/Frogger/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
@@ -19,6 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Frogger/proprietary/system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc \
     vendor/nothing/Frogger/proprietary/system_ext/etc/init/vendor.qti.qccsyshal_aidl-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.qti.qccsyshal_aidl-service.rc \
     vendor/nothing/Frogger/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
+    vendor/nothing/Frogger/proprietary/system_ext/etc/permissions/advancedSample_camera_extensions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/advancedSample_camera_extensions.xml \
     vendor/nothing/Frogger/proprietary/system_ext/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.dpmframework.xml \
     vendor/nothing/Frogger/proprietary/system_ext/etc/permissions/com.qti.qcc.vendor_qcc.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.qcc.vendor_qcc.xml \
     vendor/nothing/Frogger/proprietary/system_ext/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/dpmapi.xml \
@@ -27,12 +31,15 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Frogger/proprietary/system_ext/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_permissions.xml \
     vendor/nothing/Frogger/proprietary/system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml \
     vendor/nothing/Frogger/proprietary/system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.qti.ims.rcsservice.xml \
+    vendor/nothing/Frogger/proprietary/system_ext/etc/permissions/vendor.qti.imsdcservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.qti.imsdcservice.xml \
     vendor/nothing/Frogger/proprietary/system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml \
     vendor/nothing/Frogger/proprietary/system_ext/etc/qspa/qspa_default.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/qspa/qspa_default.rc \
     vendor/nothing/Frogger/proprietary/system_ext/etc/seccomp_policy/tcmd.policy:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/seccomp_policy/tcmd.policy \
     vendor/nothing/Frogger/proprietary/system_ext/etc/seccomp_policy/wfdservice64.policy:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/seccomp_policy/wfdservice64.policy \
     vendor/nothing/Frogger/proprietary/system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_telephony_system_packages_config.xml \
     vendor/nothing/Frogger/proprietary/system_ext/etc/sysconfig/qti_whitelist_system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist_system_ext.xml \
+    vendor/nothing/Frogger/proprietary/system_ext/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/wfdconfigsink.xml \
+    vendor/nothing/Frogger/proprietary/system_ext/framework/androidx.camera.extensions.impl.advanced.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/androidx.camera.extensions.impl.advanced.jar \
     vendor/nothing/Frogger/proprietary/vendor/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__3.0.0_0.0__eai_2.10_enpu3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__3.0.0_0.0__eai_2.10_enpu3.pmd \
     vendor/nothing/Frogger/proprietary/vendor/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__eai_2.10_enpu3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__eai_2.10_enpu3.pmd \
     vendor/nothing/Frogger/proprietary/vendor/etc/acdbdata/ffv_models/ffv__6.2.5_0.1__eai_3.4__enpu_v4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ffv_models/ffv__6.2.5_0.1__eai_3.4__enpu_v4.pmd \
@@ -291,6 +298,8 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Frogger/proprietary/vendor/etc/display/perf_hint_threshold.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/perf_hint_threshold.xml \
     vendor/nothing/Frogger/proprietary/vendor/etc/display/qdcm_calib_data_nt37706a_amoled_vid_mode_dsi_BOE_panel_with_DSC.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_nt37706a_amoled_vid_mode_dsi_BOE_panel_with_DSC.json \
     vendor/nothing/Frogger/proprietary/vendor/etc/display/qdcm_calib_data_nt37706a_amoled_vid_mode_dsi_VXN_panel_with_DSC.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_nt37706a_amoled_vid_mode_dsi_VXN_panel_with_DSC.json \
+    vendor/nothing/Frogger/proprietary/vendor/etc/display/qdcm_calib_data_rm69220_amoled_vid_mode_dsi_BOE_panel_with_DSC.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_rm69220_amoled_vid_mode_dsi_BOE_panel_with_DSC.json \
+    vendor/nothing/Frogger/proprietary/vendor/etc/display/qdcm_calib_data_rm69220_amoled_vid_mode_dsi_visionox_panel_with_DSC.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_rm69220_amoled_vid_mode_dsi_visionox_panel_with_DSC.json \
     vendor/nothing/Frogger/proprietary/vendor/etc/display/thermallevel_to_fps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/thermallevel_to_fps.xml \
     vendor/nothing/Frogger/proprietary/vendor/etc/display_refresh_rate_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/display_refresh_rate_config.json \
     vendor/nothing/Frogger/proprietary/vendor/etc/displayconfig/display_id_4630946268659918978.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946268659918978.xml \
@@ -305,6 +314,8 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Frogger/proprietary/vendor/etc/gnss_antenna_info.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gnss_antenna_info.conf \
     vendor/nothing/Frogger/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
     vendor/nothing/Frogger/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
+    vendor/nothing/Frogger/proprietary/vendor/etc/hal_uuid_map_JPN.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hal_uuid_map_JPN.xml \
+    vendor/nothing/Frogger/proprietary/vendor/etc/hal_uuid_map_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hal_uuid_map_config.xml \
     vendor/nothing/Frogger/proprietary/vendor/etc/hostapd/hostapd.accept:$(TARGET_COPY_OUT_VENDOR)/etc/hostapd/hostapd.accept \
     vendor/nothing/Frogger/proprietary/vendor/etc/hostapd/hostapd.deny:$(TARGET_COPY_OUT_VENDOR)/etc/hostapd/hostapd.deny \
     vendor/nothing/Frogger/proprietary/vendor/etc/hostapd/hostapd_default.conf:$(TARGET_COPY_OUT_VENDOR)/etc/hostapd/hostapd_default.conf \
@@ -313,6 +324,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/android.hardware.gatekeeper-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper-service-qti.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/android.hardware.gnss-aidl-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-aidl-service-qti.rc \
+    vendor/nothing/Frogger/proprietary/vendor/etc/init/android.hardware.identity-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.identity-service-qti.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/android.hardware.secure_element-service.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element-service.qti.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/android.hardware.security.keymint-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service-qti.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
@@ -326,8 +338,10 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/ims-dataservice-daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims-dataservice-daemon.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/ims_rtp_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims_rtp_daemon.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/imsdaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsdaemon.rc \
+    vendor/nothing/Frogger/proprietary/vendor/etc/init/init.embmssl_server.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.embmssl_server.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/init.ntf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.ntf.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/init.qccvendor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qccvendor.rc \
+    vendor/nothing/Frogger/proprietary/vendor/etc/init/init.qlm-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qlm-service.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/init.qti.fm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.fm.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/init.qti.graphics.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.graphics.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/init.qti.media.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.media.rc \
@@ -341,6 +355,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/nfc-service-st.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nfc-service-st.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/nicmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nicmd.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
+    vendor/nothing/Frogger/proprietary/vendor/etc/init/poweropt-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/poweropt-service.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/qcrilNrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrilNrd.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/qdcmss.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qdcmss.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/qmipriod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.rc \
@@ -354,15 +369,20 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
+    vendor/nothing/Frogger/proprietary/vendor/etc/init/vendor.qti.diag.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.diag.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/vendor.qti.hardware.alarm-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm-service.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/vendor.qti.hardware.display.color-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.display.color-service.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp@1.0-service.rc \
+    vendor/nothing/Frogger/proprietary/vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.iop@2.0-service.rc \
+    vendor/nothing/Frogger/proprietary/vendor/etc/init/vendor.qti.hardware.limits-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.limits-service.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/vendor.qti.hardware.perf2-hal-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf2-hal-service.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
+    vendor/nothing/Frogger/proprietary/vendor/etc/init/vendor.qti.hardware.servicetrackeraidl-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.servicetrackeraidl-service.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/vendor.qti.media.c2audio@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2audio@1.0-service.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/vendor.qti.qspmhal-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.qspmhal-service.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
+    vendor/nothing/Frogger/proprietary/vendor/etc/init/vendor.qti.smp2p.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.smp2p.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/nothing/Frogger/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
@@ -373,6 +393,20 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Frogger/proprietary/vendor/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
     vendor/nothing/Frogger/proprietary/vendor/etc/libnfc-nci-felica.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci-felica.conf \
     vendor/nothing/Frogger/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
+    vendor/nothing/Frogger/proprietary/vendor/etc/libse-gto-hal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libse-gto-hal.conf \
+    vendor/nothing/Frogger/proprietary/vendor/etc/lm/AdaptLaunchFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AdaptLaunchFeature.xml \
+    vendor/nothing/Frogger/proprietary/vendor/etc/lm/AppClassifierFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AppClassifierFeature.xml \
+    vendor/nothing/Frogger/proprietary/vendor/etc/lm/LightningLaunchesFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/LightningLaunchesFeature.xml \
+    vendor/nothing/Frogger/proprietary/vendor/etc/lm/PreKillFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/PreKillFeature.xml \
+    vendor/nothing/Frogger/proprietary/vendor/etc/lm/PrefAppsFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/PrefAppsFeature.xml \
+    vendor/nothing/Frogger/proprietary/vendor/etc/lm/ProCompFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/ProCompFeature.xml \
+    vendor/nothing/Frogger/proprietary/vendor/etc/lm/QAPE.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/QAPE.xml \
+    vendor/nothing/Frogger/proprietary/vendor/etc/lm/QGPE.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/QGPE.xml \
+    vendor/nothing/Frogger/proprietary/vendor/etc/lm/QGPEActionMap.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/QGPEActionMap.xml \
+    vendor/nothing/Frogger/proprietary/vendor/etc/lm/SilkyScrollsFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/SilkyScrollsFeature.xml \
+    vendor/nothing/Frogger/proprietary/vendor/etc/lm/prekill/prekill_2GB.data:$(TARGET_COPY_OUT_VENDOR)/etc/lm/prekill/prekill_2GB.data \
+    vendor/nothing/Frogger/proprietary/vendor/etc/lm/prekill/prekill_4GB.data:$(TARGET_COPY_OUT_VENDOR)/etc/lm/prekill/prekill_4GB.data \
+    vendor/nothing/Frogger/proprietary/vendor/etc/lm/prekill/prekill_6GB.data:$(TARGET_COPY_OUT_VENDOR)/etc/lm/prekill/prekill_6GB.data \
     vendor/nothing/Frogger/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
     vendor/nothing/Frogger/proprietary/vendor/etc/lvacfs_params/1mic/LVACFS_Calibration360.dat:$(TARGET_COPY_OUT_VENDOR)/etc/lvacfs_params/1mic/LVACFS_Calibration360.dat \
     vendor/nothing/Frogger/proprietary/vendor/etc/lvacfs_params/1mic/LVACFS_Configuration.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lvacfs_params/1mic/LVACFS_Configuration.txt \
@@ -403,24 +437,35 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Frogger/proprietary/vendor/etc/lvacfs_params/3mic/LVIMFS_Parameter_xxxx_ID4_MIC_Cam_back.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lvacfs_params/3mic/LVIMFS_Parameter_xxxx_ID4_MIC_Cam_back.txt \
     vendor/nothing/Frogger/proprietary/vendor/etc/lvacfs_params/3mic/audiozoom_2.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lvacfs_params/3mic/audiozoom_2.txt \
     vendor/nothing/Frogger/proprietary/vendor/etc/lvacfs_params/3mic/audiozoom_4.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lvacfs_params/3mic/audiozoom_4.txt \
+    vendor/nothing/Frogger/proprietary/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
     vendor/nothing/Frogger/proprietary/vendor/etc/media_codecs_performance_volcano_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_volcano_v1.xml \
     vendor/nothing/Frogger/proprietary/vendor/etc/media_codecs_volcano_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_volcano_v1.xml \
+    vendor/nothing/Frogger/proprietary/vendor/etc/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles.xml \
     vendor/nothing/Frogger/proprietary/vendor/etc/media_profiles_volcano_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_volcano_v1.xml \
     vendor/nothing/Frogger/proprietary/vendor/etc/media_volcano_v1/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_volcano_v1/video_system_specs.json \
+    vendor/nothing/Frogger/proprietary/vendor/etc/mem_logger_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mem_logger_config.xml \
     vendor/nothing/Frogger/proprietary/vendor/etc/models/acd/environment.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/environment.eai \
     vendor/nothing/Frogger/proprietary/vendor/etc/models/acd/event.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/event.eai \
     vendor/nothing/Frogger/proprietary/vendor/etc/models/acd/music.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/music.eai \
     vendor/nothing/Frogger/proprietary/vendor/etc/models/acd/speech.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/speech.eai \
+    vendor/nothing/Frogger/proprietary/vendor/etc/perf/avcsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/avcsysnodesconfigs.xml \
     vendor/nothing/Frogger/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
     vendor/nothing/Frogger/proprietary/vendor/etc/perf/commonsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonsysnodesconfigs.xml \
     vendor/nothing/Frogger/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
+    vendor/nothing/Frogger/proprietary/vendor/etc/perf/targetavcsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetavcsysnodesconfigs.xml \
     vendor/nothing/Frogger/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
     vendor/nothing/Frogger/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
     vendor/nothing/Frogger/proprietary/vendor/etc/perf/targetsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetsysnodesconfigs.xml \
+    vendor/nothing/Frogger/proprietary/vendor/etc/perf/testcommonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/testcommonresourceconfigs.xml \
+    vendor/nothing/Frogger/proprietary/vendor/etc/perf/testtargetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/testtargetresourceconfigs.xml \
     vendor/nothing/Frogger/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.km300.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.km300.xml \
-    vendor/nothing/Frogger/proprietary/vendor/etc/permissions/privapp-permissions-qti-vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/privapp-permissions-qti-vendor.xml \
     vendor/nothing/Frogger/proprietary/vendor/etc/permissions/vendor.qti.dcf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.qti.dcf.xml \
+    vendor/nothing/Frogger/proprietary/vendor/etc/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
     vendor/nothing/Frogger/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
+    vendor/nothing/Frogger/proprietary/vendor/etc/pwr/GamePowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/GamePowerOptFeature.xml \
+    vendor/nothing/Frogger/proprietary/vendor/etc/pwr/OffScreenPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/OffScreenPowerOptFeature.xml \
+    vendor/nothing/Frogger/proprietary/vendor/etc/pwr/PowerFeatureConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/PowerFeatureConfig.xml \
+    vendor/nothing/Frogger/proprietary/vendor/etc/pwr/VideoPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/VideoPowerOptFeature.xml \
     vendor/nothing/Frogger/proprietary/vendor/etc/qcril_database/upgrade/config/0006.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/0006.0_config.sql \
     vendor/nothing/Frogger/proprietary/vendor/etc/qcril_database/upgrade/config/0007.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/0007.0_config.sql \
     vendor/nothing/Frogger/proprietary/vendor/etc/qcril_database/upgrade/config/0008.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/0008.0_config.sql \
@@ -449,6 +494,27 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Frogger/proprietary/vendor/etc/qcril_database/upgrade/other/0014_version_update_modules.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/0014_version_update_modules.sql \
     vendor/nothing/Frogger/proprietary/vendor/etc/qcril_database/upgrade/other/0015_version_add_iccid_clir_pref_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/0015_version_add_iccid_clir_pref_table.sql \
     vendor/nothing/Frogger/proprietary/vendor/etc/qcril_database/upgrade/other/0016_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/0016_version_update_ecc_table.sql \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/NT_OnOff_button.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/NT_OnOff_button.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/NT_camera_photo.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/NT_camera_photo.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/NT_camera_zoom.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/NT_camera_zoom.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/NT_charge.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/NT_charge.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/NT_letters_navi.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/NT_letters_navi.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/NT_unlock_error.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/NT_unlock_error.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/NT_unlock_successful.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/NT_unlock_successful.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/alarm/arp.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/alarm/arp.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/alarm/crab.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/alarm/crab.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/alarm/fidget.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/alarm/fidget.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/alarm/grains.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/alarm/grains.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/alarm/pace.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/alarm/pace.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/alarm/reflect.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/alarm/reflect.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/alarm/repeater.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/alarm/repeater.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/alarm/saw.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/alarm/saw.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/alarm/shake.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/alarm/shake.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/alarm/trad.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/alarm/trad.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/common_notification1.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/common_notification1.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/common_notification2.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/common_notification2.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/common_ringtone1.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/common_ringtone1.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/common_ringtone2.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/common_ringtone2.he \
     vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/default/click.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/default/click.he \
     vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/default/double_click.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/default/double_click.he \
     vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/default/heavy_click.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/default/heavy_click.he \
@@ -456,6 +522,52 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/default/texture_tick.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/default/texture_tick.he \
     vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/default/thud.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/default/thud.he \
     vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/default/tick.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/default/tick.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/notification/beak.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/beak.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/notification/bulb_one.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/bulb_one.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/notification/cough.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/cough.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/notification/croak.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/croak.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/notification/cuckoo.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/cuckoo.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/notification/doub.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/doub.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/notification/flap.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/flap.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/notification/gargle.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/gargle.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/notification/guiro.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/guiro.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/notification/hum.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/hum.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/notification/lonba.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/lonba.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/notification/nope.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/nope.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/notification/oi!.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/oi!.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/notification/pep.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/pep.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/notification/rude.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/rude.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/notification/sharp.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/sharp.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/notification/swanny.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/swanny.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/notification/woo.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/woo.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/notification/yeh.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/yeh.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/notification/zip.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/zip.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/ringtone/abra.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/abra.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/ringtone/anna.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/anna.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/ringtone/beetle.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/beetle.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/ringtone/clwb.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/clwb.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/ringtone/coded.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/coded.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/ringtone/crossing.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/crossing.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/ringtone/dolphin.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/dolphin.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/ringtone/hammer.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/hammer.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/ringtone/latency.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/latency.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/ringtone/plot.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/plot.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/ringtone/pneumatic.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/pneumatic.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/ringtone/pulse.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/pulse.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/ringtone/radiate.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/radiate.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/ringtone/ripple.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/ripple.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/ringtone/squirrels.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/squirrels.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/ringtone/sticks.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/sticks.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/ringtone/tennis.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/tennis.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/ringtone/wings.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/wings.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/ringtone/wizard.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/wizard.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/ringtone/woo_yeh.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/woo_yeh.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/strong/NT_OnOff_button.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/strong/NT_OnOff_button.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/strong/NT_camera_photo.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/strong/NT_camera_photo.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/strong/NT_camera_zoom.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/strong/NT_camera_zoom.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/strong/NT_letters_navi.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/strong/NT_letters_navi.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/strong/NT_unlock_error.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/strong/NT_unlock_error.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/strong/NT_unlock_successful.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/strong/NT_unlock_successful.he \
     vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/strong/click.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/strong/click.he \
     vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/strong/double_click.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/strong/double_click.he \
     vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/strong/heavy_click.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/strong/heavy_click.he \
@@ -463,6 +575,12 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/strong/texture_tick.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/strong/texture_tick.he \
     vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/strong/thud.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/strong/thud.he \
     vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/strong/tick.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/strong/tick.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/weak/NT_OnOff_button.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/weak/NT_OnOff_button.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/weak/NT_camera_photo.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/weak/NT_camera_photo.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/weak/NT_camera_zoom.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/weak/NT_camera_zoom.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/weak/NT_letters_navi.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/weak/NT_letters_navi.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/weak/NT_unlock_error.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/weak/NT_unlock_error.he \
+    vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/weak/NT_unlock_successful.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/weak/NT_unlock_successful.he \
     vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/weak/click.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/weak/click.he \
     vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/weak/double_click.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/weak/double_click.he \
     vendor/nothing/Frogger/proprietary/vendor/etc/richtapresources/weak/heavy_click.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/weak/heavy_click.he \
@@ -481,9 +599,11 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Frogger/proprietary/vendor/etc/seccomp_policy/gnss@2.0-xtwifi-client.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/gnss@2.0-xtwifi-client.policy \
     vendor/nothing/Frogger/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
     vendor/nothing/Frogger/proprietary/vendor/etc/seccomp_policy/qcrilnr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qcrilnr@2.0.policy \
+    vendor/nothing/Frogger/proprietary/vendor/etc/seccomp_policy/qesdksec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qesdksec.policy \
     vendor/nothing/Frogger/proprietary/vendor/etc/seccomp_policy/qms.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qms.policy \
     vendor/nothing/Frogger/proprietary/vendor/etc/seccomp_policy/qsap_dcfd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qsap_dcfd.policy \
     vendor/nothing/Frogger/proprietary/vendor/etc/seccomp_policy/qspm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qspm.policy \
+    vendor/nothing/Frogger/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
     vendor/nothing/Frogger/proprietary/vendor/etc/seccomp_policy/qwesd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qwesd@2.0.policy \
     vendor/nothing/Frogger/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
     vendor/nothing/Frogger/proprietary/vendor/etc/seccomp_policy/wfdhdcphalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdhdcphalservice.policy \
@@ -571,6 +691,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Frogger/proprietary/vendor/etc/st54j_conf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st54j_conf.txt \
     vendor/nothing/Frogger/proprietary/vendor/etc/st54l_conf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st54l_conf.txt \
     vendor/nothing/Frogger/proprietary/vendor/etc/st54l_conf_felica.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st54l_conf_felica.txt \
+    vendor/nothing/Frogger/proprietary/vendor/etc/telephony_packages.xml:$(TARGET_COPY_OUT_VENDOR)/etc/telephony_packages.xml \
     vendor/nothing/Frogger/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/nothing/Frogger/proprietary/vendor/etc/vmmgr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/vmmgr.conf \
     vendor/nothing/Frogger/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
@@ -690,7 +811,8 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Frogger/proprietary/vendor/lib64/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreview.bin \
     vendor/nothing/Frogger/proprietary/vendor/lib64/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreviewlite.bin \
     vendor/nothing/Frogger/proprietary/vendor/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideo.bin \
-    vendor/nothing/Frogger/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin
+    vendor/nothing/Frogger/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin \
+    vendor/nothing/Frogger/proprietary/vendor/lib64/libpnc_cl_program.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/libpnc_cl_program.bin
 
 PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk \
@@ -864,6 +986,7 @@ PRODUCT_PACKAGES += \
     com.qualcomm.mcx.nonlinearmapper \
     com.qualcomm.mcx.policy.mfl \
     com.qualcomm.qti.dpm.api@1.0_vendor \
+    com.qualcomm.qti.imscmservice@1.0 \
     com.qualcomm.qti.imscmservice@2.0 \
     com.qualcomm.qti.imscmservice@2.1 \
     com.qualcomm.qti.imscmservice@2.2 \
@@ -886,6 +1009,7 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.1-impl-qti \
     android.hardware.gnss-aidl-impl-qti \
     audio.bluetooth_qti.default \
+    audio.primary.volcano \
     camera.qcom.milos \
     camera.qcom \
     com.dsi.ant@1.0-impl \
@@ -904,6 +1028,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bttpi-impl \
     vendor.qti.hardware.fm@1.0-impl \
     vendor.qti.hardware.qseecom@1.0-impl \
+    vendor.qti.hardware.servicetrackeraidl-impl \
+    vendor.qti.hardware.wifidisplaysession@1.0-impl \
     vulkan.adreno \
     vulkan.pastel \
     lib-imscommon \
@@ -927,6 +1053,7 @@ PRODUCT_PACKAGES += \
     libEvrcSwCodec \
     libFileMux_proprietary \
     libFlacSwDec \
+    libGPMTEEC_vendor \
     libGPQeSE \
     libGPTEE_vendor \
     libGPreqcancel \
@@ -942,27 +1069,47 @@ PRODUCT_PACKAGES += \
     libQnnSystem \
     libQtiRilLoadable \
     libSensorsInterface \
-    libTxPwrJni \
+    libTrustedInputUtils \
     libVoiceSdk \
     libWlanServiceJni \
+    lib_bt_aptx \
+    lib_bt_ble \
+    lib_bt_bundle \
     lib_lvacfs \
     libaacvibrator \
+    libadaptlaunch \
     libadm \
     libadreno_app_profiles \
     libadreno_compiler_cl \
     libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
+    libagm \
+    libagm_compress_plugin \
+    libagm_mixer_plugin \
+    libagm_pcm_plugin \
+    libagmclient \
     libaidenoiser \
     libaidenoiserv2 \
+    libapengine \
+    libappclassifier \
+    libar-acdb \
+    libar-gpr \
+    libar-gsl \
+    libar-pal \
     libarc.ion \
     libarcsoft_ai_moon \
+    libarcsoft_aiscenedetection \
     libarcsoft_beautyshot \
     libarcsoft_dark_vision_raw \
     libarcsoft_dualcam_refocus_image \
+    libarcsoft_dualcam_refocus_preview \
+    libarcsoft_lensstaindetection \
+    libarcsoft_panorama \
     libarcsoft_portrait_distortion_correction \
     libarcsoft_qnnhtp \
     libarcsoft_scbokeh_image \
+    libarcsoft_scbokeh_video \
     libarcsoft_tfe_grf \
     libarcsoft_tfe_hdr \
     libarcsoft_tfe_hdr_front \
@@ -973,11 +1120,14 @@ PRODUCT_PACKAGES += \
     libarcsoft_triple_sat \
     libarcsoft_triple_zoomtranslator.old \
     libarcsoft_triple_zoomtranslator \
+    libarmemlog \
+    libats \
     libaudio_log_utils \
     libaudiochargerlistener \
     libaudiofeaturestats \
     libbacklight-calib \
     libbatching \
+    libbatterylistener \
     libbitmlengine \
     libbitmlenginev2 \
     libbluetooth_audio_session_aidl_qti \
@@ -985,6 +1135,7 @@ PRODUCT_PACKAGES += \
     libbluetooth_audio_session_qti_2_1 \
     libbtnv \
     libcacertclient \
+    libcameradecision \
     libcamerapostproc \
     libcamxcommonutils \
     libcamxexternalformatutils \
@@ -1022,6 +1173,7 @@ PRODUCT_PACKAGES += \
     libcommonchiutils \
     libconfigdb \
     libcpion \
+    libcustomva_intf \
     libcv_common \
     libdataitems \
     libdiag \
@@ -1030,6 +1182,7 @@ PRODUCT_PACKAGES += \
     libdisplayqos \
     libdisplayskuutils \
     libdpmqmihal \
+    libdpp_manager \
     libdpps \
     libdrmfs \
     libdrmtime \
@@ -1038,12 +1191,15 @@ PRODUCT_PACKAGES += \
     libdsutils \
     libeai_fixed \
     libeai_float \
+    libembmsservice \
     libengineplugin \
     libfastcrc \
     libfastcvdsp_stub \
     libfastcvopt \
     libfeutils \
+    libfmpal \
     libgame_enhance \
+    libgamepoweroptfeature \
     libgdtap \
     libgeofencing \
     libgf_hal \
@@ -1053,11 +1209,16 @@ PRODUCT_PACKAGES += \
     libgpt \
     libgpudataproducer \
     libgsl \
+    libhdcpsrm \
     libhdr10plus \
     libhdr_backlight_adapter \
     libhdr_stub \
     libhdr_tm \
+    libhdrdynamic \
+    libhdrdynamicootf \
+    libhfp_pal \
     libhme \
+    libhotword_intf \
     libiccprofile \
     libics_haptic \
     libidl \
@@ -1079,10 +1240,13 @@ PRODUCT_PACKAGES += \
     libkeymasterutils \
     liblbs_core \
     liblearningmodule \
+    liblightninglaunches \
     liblistensoundmodel2vendor \
     libllvm-glnext \
     libllvm-qcom \
     libllvm-qgl \
+    liblmthermallistner \
+    liblmutils-ns \
     libloc_api_v02 \
     libloc_api_wds \
     libloc_base_util \
@@ -1105,21 +1269,30 @@ PRODUCT_PACKAGES += \
     liblowi_wifihal \
     liblqe \
     liblvacfs_wrapper \
+    liblx-ar_util \
+    liblx-osal \
     libmapdata_api \
     libmcs \
+    libmctfengine_stub \
     libmdmdetect \
     libmdsprpc \
     libmemperfd \
     libmemutils \
+    libmeters-ns \
     libmeters \
+    libmfGhostDetection \
+    libmfec \
     libminkdescriptor \
     libminksocket_vendor \
+    libmlremosaicsnapshot \
+    libmm-hdcpmgr \
     libmmcamera_bestats \
     libmmcamera_cac \
     libmmcamera_lscv35 \
     libmmcamera_mfnr \
     libmmcamera_mfnr_t4 \
     libmmcamera_pdpc \
+    libmmcamera_pnc \
     libmmosal_vendor \
     libmmrtpdecoder_vendor \
     libmmrtpencoder_vendor \
@@ -1136,21 +1309,32 @@ PRODUCT_PACKAGES += \
     libnicm_recovery \
     libnicm_utils \
     libnicm_vh \
+    libnoteengine \
+    libntcamallocator \
     libntcamcommonutils \
+    libntcamcore \
     libntcamcustomutil \
+    libntcamera2ndk_vendor_v2 \
+    libntcamextened \
     libntcamimage_io \
+    libntcammetadata \
+    libntcampipepb \
+    libntcamselector \
     libntcamskia \
+    libntcamthread \
     libntcamultrahdr \
     libntcamyuv \
-    libntf \
+    libntf_vendor \
     libntofflinepostproc \
     liboemcrypto \
+    liboffscreenpoweroptfeature \
     libopencv \
     libopencv3a \
     libopestriping \
     libops \
     libos \
     libpal_net_if \
+    libpalclient \
     libpdmapper \
     libpdnotifier \
     libperfconfig \
@@ -1158,7 +1342,12 @@ PRODUCT_PACKAGES += \
     libperfioctl \
     libperipheral_client \
     libportrait_repair_qnn \
+    libpowercore \
+    libprefapps \
+    libprekill \
+    libprocomp \
     libq-perflog \
+    libqapesdk \
     libqc2audio_base \
     libqc2audio_basecodec \
     libqc2audio_core \
@@ -1205,29 +1394,39 @@ PRODUCT_PACKAGES += \
     libqdpr \
     libqesdk2_0 \
     libqisl \
+    libqll \
+    libqll10 \
+    libqllengine \
     libqmi \
     libqmi_cci \
     libqmi_client_helper \
     libqmi_client_qmux \
     libqmi_common_so \
     libqmi_csi \
+    libqmi_csvt_srvc \
     libqmi_encdec \
     libqmi_legacy \
+    libqmiextservices \
     libqmiservices \
     libqms \
+    libqms_client \
     libqrtr \
     libqrtrclient \
     libqseed3 \
+    libqsegnet \
     libqsh \
     libqsh_ble_pb \
     libqshcamera \
     libqsocket \
     libqspm-mem-utils-vendor \
+    libqti-iopd-client \
+    libqti-iopd \
     libqti-perfd-client \
     libqti-perfd \
     libqti-qesdk-secure \
     libqti-util \
     libqtigefar \
+    libqtiidentitycredential \
     libqtikeymint \
     librcc \
     librcmask \
@@ -1249,11 +1448,16 @@ PRODUCT_PACKAGES += \
     libsdsprpc \
     libsensorcal \
     libsensorslog \
+    libsfeShiftExtrapolation \
     libshsc \
+    libsi \
+    libsilkyscrolls \
     libskewknob \
     libslimclient \
+    libsmemlog \
     libsnapdragoncolor-manager \
     libsnapdragoncolor-qdcm \
+    libsndcardparser \
     libsns_device_mode_stub \
     libsns_direct_channel_stub \
     libsns_dynamic_loader_stub \
@@ -1268,6 +1472,9 @@ PRODUCT_PACKAGES += \
     libssc_default_listener \
     libssd \
     libstfactory-vendor \
+    libstreamparser \
+    libstreamprocessor \
+    libsubsystem_control \
     libswregistrationalgo \
     libsynergy_loc_api \
     libsynx \
@@ -1289,9 +1496,11 @@ PRODUCT_PACKAGES += \
     libvega_common \
     libvendor.goodix.hardware.biometrics.fingerprint \
     libvideoml \
+    libvideooptfeature \
     libvideotxr \
     libvideoutils \
     libvmfilexfer \
+    libvui_dmgr \
     libvui_dmgr_client \
     libwa_opticalzoomfactor \
     libwfdcodecv4l2_proprietary \
@@ -1355,8 +1564,12 @@ PRODUCT_PACKAGES += \
     sensors.qsh \
     libAACeffect_NT \
     libasphere \
+    libqcompostprocbundle \
+    libqcomvisualizer \
+    libqcomvoiceprocessing \
     libquasar \
     libshoebox \
+    libvolumelistener \
     vendor.display.postproc@1.0 \
     vendor.libdpmctmgr \
     vendor.libdpmfdmgr \
@@ -1370,6 +1583,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.diaghal@1.0_vendor \
     vendor.qti.gnss-V6-ndk \
     vendor.qti.gnss-service \
+    vendor.qti.hardware.AGMIPC@1.0-impl \
     vendor.qti.hardware.alarm-V1-ndk \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
@@ -1392,14 +1606,24 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.qmiaidlservice-V1-ndk \
     vendor.qti.hardware.dpmaidlservice-V1-ndk_vendor \
     vendor.qti.hardware.dsp@1.0 \
+    vendor.qti.hardware.embmsslaidl-V1-ndk \
     vendor.qti.hardware.fm@1.0 \
+    vendor.qti.hardware.iop@1.0 \
+    vendor.qti.hardware.iop@2.0 \
+    vendor.qti.hardware.limits@1.0 \
+    vendor.qti.hardware.limits@1.1 \
+    vendor.qti.hardware.limits@1.2 \
     vendor.qti.hardware.mwqemadapteraidlservice-V1-ndk \
+    vendor.qti.hardware.pal@1.0-impl \
     vendor.qti.hardware.perf2-V1-ndk \
+    vendor.qti.hardware.power.powermodule-V1-ndk \
     vendor.qti.hardware.qccsyshal@1.0_vendor \
     vendor.qti.hardware.qccsyshal@1.1_vendor \
     vendor.qti.hardware.qccsyshal@1.2_vendor \
+    vendor.qti.hardware.qdutils_disp@1.0 \
     vendor.qti.hardware.qseecom-V1-ndk \
     vendor.qti.hardware.qseecom@1.0 \
+    vendor.qti.hardware.qteeconnector@1.0 \
     vendor.qti.hardware.radio.am-V1-ndk \
     vendor.qti.hardware.radio.common-V1-ndk \
     vendor.qti.hardware.radio.ims-V16-ndk \
@@ -1441,6 +1665,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.qesdhal@1.3 \
     vendor.qti.qspmhal-V1-ndk \
     vendor.qti.qspmhal-impl \
+    vendor.qti.voiceprint@1.0 \
     vendor_lib_rfsa_adsp_libQnnHtpV73_so \
     vendor_lib_rfsa_adsp_libQnnHtpV73Skel_so \
     vendor_lib_rfsa_adsp_libadsp_jpege_skel_so \
@@ -1456,16 +1681,19 @@ PRODUCT_PACKAGES += \
     lib-imsvt \
     lib-imsvtextutils \
     lib-imsvtutils \
+    libSurfaceUtil_jni \
     libdiag_system \
     libdpmctmgr \
     libdpmfdmgr \
     libdpmframework \
     libdpmtcm \
+    libencoderjpeg_jni \
     libimsmedia_jni \
     libmmosal \
     libmmparser_lite \
     libmmrtpdecoder \
     libmmrtpencoder \
+    libntf \
     libprotobuf-cpp-full-6.33.5 \
     libqcc \
     libqcc_file_agent_sys \
@@ -1500,6 +1728,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qccvndhal@1.0 \
     vendor.qti.hardware.wifidisplaysession@1.0 \
     vendor.qti.hardware.wifidisplaysession_aidl-V2-ndk \
+    vendor.qti.ims.datachannelservice-V1-ndk \
+    vendor.qti.ims.datachannelservice-V2-ndk \
     vendor.qti.imsrtpservice@3.0 \
     vendor.qti.imsrtpservice@3.1 \
     vendor.qti.qccsyshal_aidl-V1-ndk \
@@ -1508,17 +1738,16 @@ PRODUCT_PACKAGES += \
     com.google.android.widevine.nonupdatable \
     CACertService \
     CneApp \
-    ConnectionSecurityService \
     IWlanService \
     TimeService \
-    TrustZoneAccessService \
-    TxPwrAdmin \
     MobileFeliCaClient \
     MobileFeliCaMenuMainApp \
     MobileFeliCaSettingApp \
     MobileFeliCaWebPluginBoot \
     uimgbaservice \
     uimlpaservice \
+    uimremoteclient \
+    uimremoteserver \
     PowerOffAlarm \
     QCC \
     QtiTelephony \
@@ -1527,7 +1756,11 @@ PRODUCT_PACKAGES += \
     ims \
     qcrilmsgtunnel \
     WfdCommon \
+    nt-telephony-interface \
     uimgbalibrary \
+    uimgbamanagerlibrary \
+    uimremoteclientlibrary \
+    uimremoteserverlibrary \
     uimservicelibrary \
     com.qti.dpmframework \
     dpmapi \
@@ -1535,10 +1768,13 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.alarm-V1.0-java \
     vendor.qti.ims.connection-V1.0-java \
     vendor.qti.ims.connectionaidlservice-V1-java \
+    vendor.qti.ims.datachannelservice-V1-java \
+    vendor.qti.ims.datachannelservice-V2-java \
     vendor.qti.ims.factory-V2.0-java \
     vendor.qti.ims.factory-V2.1-java \
     vendor.qti.ims.factory-V2.2-java \
     vendor.qti.ims.factoryaidlservice-V1-java \
+    vendor.qti.ims.imscmaidlservice-V1-java \
     vendor.qti.ims.rcssip-V1.0-java \
     vendor.qti.ims.rcssip-V1.1-java \
     vendor.qti.ims.rcssip-V1.2-java \
@@ -1547,6 +1783,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuce-V1.1-java \
     vendor.qti.ims.rcsuce-V1.2-java \
     vendor.qti.ims.rcsuceaidlservice-V1-java \
+    vendor.qti.ims.uceaidlservice-V1-java \
+    vendor.qti.imsdatachannel \
     ImsRtpService-aidl.xml \
     android.hardware.drm-service.xml \
     android.hardware.gnss-aidl-service-qti.xml \
@@ -1568,9 +1806,11 @@ PRODUCT_PACKAGES += \
     deviceinfo-saidl.xml \
     dpm-saidl.xml \
     imsdcservice-saidl.xml \
+    manifest_identity_credential.xml \
     mwqem-saidl.xml \
     qcrilhook-saidl.xml \
     qms-saidl.xml \
+    qspa-nav.xml \
     qtiradio-saidl.xml \
     vendor.qti.camera.offlinecamera-impl.xml \
     vendor.qti.camera.postproc-impl.xml \
@@ -1580,7 +1820,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.alarm.xml \
     vendor.qti.hardware.data.connectionaidl.xml \
     vendor.qti.hardware.data.iwlandata.xml \
+    vendor.qti.hardware.embmssl.xml \
+    vendor.qti.hardware.limits-service.xml \
     vendor.qti.hardware.perf2.xml \
+    vendor.qti.hardware.power.powermodule.xml \
     vendor.qti.hardware.qseecom@1.0-service.xml \
     vendor.qti.hardware.radio.am.xml \
     vendor.qti.hardware.radio.ims.xml \
@@ -1589,6 +1832,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.radio.uim.xml \
     vendor.qti.hardware.radio.uim_remote_client.xml \
     vendor.qti.hardware.radio.uim_remote_server.xml \
+    vendor.qti.hardware.servicetrackeraidl-service.xml \
     vendor.qti.hardware.wifidisplaysession-service.xml \
     vendor.qti.ims.factoryaidlservice.xml \
     vendor.qti.qccvndhal_aidl-service.xml \
@@ -1596,6 +1840,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.qccsyshal_aidl-service.xml \
     adpl \
     adsprpcd \
+    audioadsprpcd \
     cdsprpcd \
     cnd \
     cnss-daemon \
@@ -1603,11 +1848,13 @@ PRODUCT_PACKAGES += \
     dpmQmiMgr \
     dspservice \
     edgnss-daemon \
+    embmsslServer \
     engine-service \
     feature_enabler_client \
     android.hardware.bluetooth@1.1-service-qti \
     android.hardware.gatekeeper-service-qti \
     android.hardware.gnss-aidl-service-qti \
+    android.hardware.identity-service-qti \
     android.hardware.nfc-service-st \
     android.hardware.secure_element-service.qti \
     android.hardware.security.keymint-service-qti \
@@ -1617,8 +1864,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.camera.provider-service_64 \
     vendor.qti.hardware.alarm-service \
     vendor.qti.hardware.display.color-service \
+    vendor.qti.hardware.iop@2.0-service \
+    vendor.qti.hardware.limits@1.2-service \
     vendor.qti.hardware.perf2-hal-service \
     vendor.qti.hardware.qseecom@1.0-service \
+    vendor.qti.hardware.servicetrackeraidl-service \
     vendor.qti.media.c2@1.0-service \
     vendor.qti.media.c2audio@1.0-service \
     ims-dataservice-daemon \
@@ -1651,9 +1901,11 @@ PRODUCT_PACKAGES += \
     pm-service \
     port-bridge \
     power_off_alarm \
+    poweropt-service \
     ppd \
     qcc-vendor \
     qdcmss \
+    qlm-service \
     qmipriod \
     qms \
     qrtr-ns \
@@ -1694,7 +1946,9 @@ PRODUCT_PACKAGES += \
     wfdservice64
 
 PRODUCT_PACKAGES += \
+    system_ext_priv-app_ims_lib_arm64_libSurfaceUtil_jni_so \
     system_ext_priv-app_ims_lib_arm64_libimsmedia_jni_so \
+    system_ext_priv-app_qcrilmsgtunnel_lib_arm64_libntf_so \
     system_ext_priv-app_WfdService_lib_arm64_libwfdnative_so \
     vendor_lib64_libEGL_adreno_so \
     vendor_lib64_libGLESv2_adreno_so \
